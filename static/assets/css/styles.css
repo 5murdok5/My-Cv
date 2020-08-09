@@ -1,4 +1,4 @@
-/*
+/*   
  * Template Name: Orbit - Responsive Resume/CV Template for Developers
  * Version: 1.0
  * Author: Xiaoying Riley
@@ -43,8 +43,8 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: rgb(35,86,103);
-  background: linear-gradient(180deg, rgba(35,86,103,1) 0%, rgba(66,168,192,1) 20%, rgba(66,168,192,1) 100%);
+  background: #42A8C0;
+  background: linear-gradient(180deg, #235667 0%, #42A8C0 20%, #42A8C0 100%);
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -53,8 +53,8 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: rgb(35,86,103);
-  background: linear-gradient(180deg, rgba(35,86,103,1) 0%, rgba(66,168,192,1) 20%, rgba(66,168,192,1) 100%);
+  background: #42A8C0;
+  background: linear-gradient(180deg, #235667 0%, #42A8C0 20%, #42A8C0 100%);
   position: absolute;
   right: 0;
   width: 240px;
@@ -67,7 +67,7 @@ p {
 }
 .sidebar-wrapper .profile-container {
   padding: 30px;
-  /*background: rgba(0, 0, 0, 0.2);*/
+  background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
 }
@@ -270,10 +270,9 @@ p {
   color: #fb866a;
 }
 .btn-translate {
-  background-color: #276472;
-  border-color: #41a7be;
+  background-color: #235667;
+  border-color: #42A8C0;
 }
-
 .timeline-item {
   padding: 1em 2em 2em;
   position: relative;
@@ -292,7 +291,7 @@ p {
   display: block;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
-  font-size: .785rem;
+  font-size: 0.785rem;
 }
 .timeline-item::after {
   width: 10px;
@@ -313,8 +312,6 @@ p {
   border-image: -webkit-gradient(linear, right top, right bottom, color-stop(60%, rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0))) 1 100%;
   border-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0)) 1 100%;
 }
-
-
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
   .sidebar-wrapper {
