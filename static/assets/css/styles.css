@@ -67,9 +67,11 @@ p {
 }
 .sidebar-wrapper .profile-container {
   padding: 30px;
-  background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
+}
+.sidebar-wrapper .profile-container .img-circle {
+  width: 100%;
 }
 .sidebar-wrapper .name {
   font-size: 32px;
