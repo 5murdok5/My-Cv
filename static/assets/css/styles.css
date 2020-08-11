@@ -240,6 +240,29 @@ p {
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
 }
+.main-wrapper .translations-container {
+  position: absolute;
+  color: #42A8C0;
+  left: 10px;
+  top: 0px;
+  transition: all 0.5s;
+}
+.sidebarLeft .main-wrapper .translations-container {
+  right: 5px;
+}
+.main-wrapper .translations-container a {
+  display: inline-block;
+  padding: 6px 4px;
+  font-size: 12px;
+}
+.main-wrapper .translations-container a.currentLanguage {
+  font-weight: bold;
+  text-decoration-line: underline;
+}
+.main-wrapper .translations-container a:hover {
+  color: #2d7788;
+  text-decoration: none;
+}
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;

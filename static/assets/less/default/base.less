@@ -238,6 +238,34 @@ p {
             margin-bottom: 15px;
         }
     }
+
+    .translations-container {
+        position: absolute;
+        color: @theme-color;
+        left: 10px;
+        top: 0px;
+        transition: all 0.5s;
+
+        .sidebarLeft & {
+            right: 5px;
+        }
+
+        a {
+            display: inline-block;
+            padding: 6px 4px;
+            font-size: 12px;
+
+            &.currentLanguage {
+                font-weight: bold;
+                text-decoration-line: underline;
+            }
+        }
+
+        a:hover {
+            color: darken(@theme-color, 15%);
+            text-decoration: none;
+        }
+    }
     
 }
 
@@ -263,7 +291,6 @@ p {
         border-radius: 5px;
     }
 }
-
 
 
 
