@@ -10,7 +10,7 @@ This is a Hugo port of [Orbit](//github.com/xriley/Orbit-Theme) - great looking 
 
 ## New Version
 
-![Orbit screenshot](https://raw.githubusercontent.com/fabidick22/hugo-orbit-theme/master/images/newVersion.png)
+![Orbit screenshot](https://raw.githubusercontent.com/fabidick22/hugo-orbit-theme/develop/images/newVersion.png)
 
 ## Features
 
