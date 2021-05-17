@@ -10,5 +10,7 @@
   translation: 프로젝트
 - id: skills
   translation: 기술 & 숙련도
+- id: certificates
+  translation: 코스 및 인증서
 - id: summary
   translation: 소개

@@ -10,5 +10,7 @@
   translation: プロジェクト
 - id: skills
   translation: 技術 & 熟練度
+- id: certificates
+  translation: コースと証明書
 - id: summary
   translation: 紹介
