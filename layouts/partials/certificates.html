@@ -1,15 +1,14 @@
-            <section class="skills-section section">
-                <h2 class="section-title"><i class="fa {{ .Site.Params.skills.icon }}"></i>{{ i18n "skills" }}</h2>
+            <section class="certificates-section section">
+                <h2 class="section-title"><i class="fa {{ .Site.Params.certificates.icon }}"></i>{{ i18n "certificates" }}</h2>
                 <div class="headline"></div>
-                <div class="skillset">
-				{{ range .Site.Params.skills.list }}
+                <div class="certificateset">
+				{{ range .Site.Params.certificates.list }}
                     <div class="item">
-                        <h3 class="level-title">{{ .skill }}</h3>
-                        <div class="level-bar">
-                            <div class="level-bar-inner" data-level="{{ .level }}">
-                            </div>
-                        </div><!--//level-bar-->
-                    </div><!--//item-->
+                        <h3 class="level-title">{{ .title }}</h3>
+                        <div class="level-img">
+                            <img src="{{ .url }}" alt="">
+                        </div>
+                    </div>
                 {{ end }}
                 </div>
-            </section><!--//skills-section-->
+            </section><!--//certificates-section-->
