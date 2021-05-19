@@ -10,6 +10,8 @@
   translation: Projects
 - id: skills
   translation: Skills & Proficiency
+- id: certificates
+  translation: Courses & Certificates
 - id: summary
   translation: Career Profile
 - id: contact

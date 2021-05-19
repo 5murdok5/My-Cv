@@ -10,6 +10,8 @@
   translation: Proyectos
 - id: skills
   translation: Habilidades y Competencias
+- id: certificates
+  translation: Cursos y Certificados
 - id: summary
   translation: Perfil de la carrera
 - id: contact

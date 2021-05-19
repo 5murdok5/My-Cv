@@ -1,0 +1,14 @@
+            <section class="certificates-section section">
+                <h2 class="section-title"><i class="fa {{ .Site.Params.certificates.icon }}"></i>{{ i18n "certificates" }}</h2>
+                <div class="headline"></div>
+                <div class="certificateset">
+				{{ range .Site.Params.certificates.list }}
+                    <div class="item">
+                        <h3 class="level-title">{{ .title }}</h3>
+                        <div class="level-img">
+                            <img src="{{ .url }}" alt="{{ .title }}">
+                        </div>
+                    </div>
+                {{ end }}
+                </div>
+            </section><!--//certificates-section-->

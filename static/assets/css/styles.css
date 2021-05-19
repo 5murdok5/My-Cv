@@ -282,6 +282,24 @@ p {
   background: #7bc2d3 !important;
   border-radius: 5px;
 }
+.certificateset .item {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.certificateset .level-title {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.certificateset .level-img {
+  max-height: 100%;
+  background: #f5f5f5 !important;
+  border-radius: 5px;
+}
+.certificateset .level-img img {
+  max-width: 100%;
+}
 .footer {
   padding: 30px;
   padding-top: 60px;
