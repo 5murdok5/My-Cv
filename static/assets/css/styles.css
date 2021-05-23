@@ -317,13 +317,13 @@ p {
   border-color: #42A8C0;
 }
 .timeline-item {
-  padding: 1em 2em 2em;
+  padding: 1em 2em 1em;
   position: relative;
   color: rgba(0, 0, 0, 0.7);
   border-right: 2px solid rgba(0, 0, 0, 0.3);
 }
 .timeline-item p {
-  font-size: 1rem;
+  font-size: 14px;
 }
 .timeline-item::before {
   content: attr(date-is);
