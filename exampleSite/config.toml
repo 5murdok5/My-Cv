@@ -108,6 +108,23 @@ disable404 = true
         language = "Russian"
         level = "Professional"
 
+
+    # References section
+    [params.references]
+        enable = true
+        title = "References"
+
+        [[params.references.list]]
+        name = "Contact Name"
+        email = "contact@gmail.com"
+        phone = "+00 000 0000000"
+
+        [[params.references.list]]
+        name = "Contact Name"
+        email = "contact@gmail.com"
+        phone = "+00 000 0000000"
+
+
     # Interests section
     [params.interests]
         enable = true

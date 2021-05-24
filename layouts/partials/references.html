@@ -1,15 +1,11 @@
             <hr class="small-hr">
-            <div class="contact-container container-block">
+            <div class="references-container container-block">
                 <h2 class="container-block-title">{{ i18n "references" }}</h2>
-                <ul class="list-unstyled contact-list">
 				{{ range .Site.Params.references.list }}
-                    <div class="item">
-                        <h4 class="degree">{{ .name }}</h4>
-                        <!--h5 class="meta">{{ .college }}</h5>
-                        <div class="time">{{ .dates }}</div-->
-                        <li class="email"><i class="fa fa-envelope"></i><a href="mailto:{{ .email }}">{{ .email }}</a></li>
-                        <li class="phone"><i class="fa fa-mobile"></i><a href="tel::{{ .phone }}">{{ .phone }}</a></li>
-                    </div><!--//item-->
+                <div class="items">
+                    <h4 class="degree">{{ .name }}</h4>
+                    <a class="meta" href="tel:{{ .phone }}">{{ .phone }}</a>
+                    <a class="time" href="mailto:{{ .email }}">{{ .email }}</a>
+                </div><!--//item-->
 				{{ end }}
-                </ul>
-            </div><!--//contact-container-->
+            </div><!--//references-container-->

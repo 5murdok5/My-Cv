@@ -138,6 +138,23 @@ p {
   font-weight: 500;
   margin-bottom: 0px;
 }
+.sidebar-wrapper .references-container .items {
+  margin-bottom: 15px;
+}
+.sidebar-wrapper .references-container .items:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .references-container .meta {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+.sidebar-wrapper .references-container .time {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  margin-bottom: 0px;
+}
 .sidebar-wrapper .language-container .lang-desc {
   color: rgba(255, 255, 255, 0.6);
 }
