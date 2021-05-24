@@ -5,6 +5,9 @@
 				{{ range .Site.Params.skills.list }}
                     <div class="item">
                         <h3 class="level-title">{{ .skill }}</h3>
+                        {{ with .details }}
+                        <p>{{.}}</p>
+                        {{ end }}
                         <div class="level-bar">
                             <div class="level-bar-inner" data-level="{{ .level }}">
                             </div>
