@@ -4,9 +4,9 @@
                 <div class="certificateset">
 				{{ range .Site.Params.certificates.list }}
                     <div class="item">
-                        <h3 class="level-title">{{ .title }}</h3>
+                        {{ with .title }}<h3 class="level-title">{{.}}</h3>{{end}}
                         <div class="level-img">
-                            <img src="{{ .url }}" alt="{{ .title }}">
+                            <img src="{{ .url | absURL }}" alt="{{ .alt }}">
                         </div>
                     </div>
                 {{ end }}
