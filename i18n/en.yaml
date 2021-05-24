@@ -18,3 +18,7 @@
   translation: Contact
 - id: references
   translation: Job references
+- id: references
+  translation: Job references
+- id: downloads
+  translation: Downloads

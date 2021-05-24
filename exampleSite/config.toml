@@ -139,6 +139,18 @@ disable404 = true
         [[params.interests.list]]
         interest = "Cooking"
 
+
+    # Downloads section
+    [params.downloads]
+        enable = true
+        title = "Downloads"
+
+        [[params.downloads.list]]
+        name = "CV / Resume"
+        icon = "fa-file-pdf-o"
+        filepath = "path/resume.pdf"
+
+
 # Main body sections
 
     # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)

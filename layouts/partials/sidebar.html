@@ -14,12 +14,16 @@
 		{{ partial "language.html" . }}
 		{{ end }}
 
-		{{ if .Site.Params.interests.enable }}
+		{{ if .Site.Params.references.enable }}
 		{{ partial "references.html" . }}
 		{{ end }}
 
 		{{ if .Site.Params.interests.enable }}
 		{{ partial "interests.html" . }}
+		{{ end }}
+
+		{{ if .Site.Params.downloads.enable }}
+		{{ partial "downloads.html" . }}
 		{{ end }}
 
         </div><!--//sidebar-wrapper-->
