@@ -15,6 +15,10 @@
 		{{ end }}
 
 		{{ if .Site.Params.interests.enable }}
+		{{ partial "references.html" . }}
+		{{ end }}
+
+		{{ if .Site.Params.interests.enable }}
 		{{ partial "interests.html" . }}
 		{{ end }}
 

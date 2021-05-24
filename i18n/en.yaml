@@ -16,3 +16,5 @@
   translation: Career Profile
 - id: contact
   translation: Contact
+- id: references
+  translation: Job references
