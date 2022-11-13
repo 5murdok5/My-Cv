@@ -1,0 +1,359 @@
+# Page settings
+
+baseurl = "http://example.org/"
+languageCode = "en-us"
+title = "John Doe Resume"
+theme = "../../hugo-orbit-theme"
+themesDir = "."
+staticDir = "../static"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = true
+disableSitemap = true
+disable404 = true
+
+[params]
+
+# Meta
+    description = "Hugo Responsive Resume/CV Theme for Developers"
+    author = "Pavel Kanyshev"
+
+# Theme styles
+
+    # The original template comes with 6 colour schemes. You may choose styles below.
+    # "styles.css", "styles-2.css", "styles-3.css", "styles-4.css", "styles-5.css", "styles-6.css"
+    # are available. Also the source LESS files are included so
+    # it’s quick and easy to change the styling and colour scheme.
+
+    styles = "styles.css"
+
+# Sidebar sections
+
+    # Profile section
+    [params.profile]
+        name = "Santiago A. Moreno B."
+        tagline = "Full Stack Developer"
+        
+
+    # Contact section
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+        class = "email"
+        icon = "fa-envelope"
+        url = "mailto: santiago.moreno52@gmail.com"
+        title = "santiago.moreno52"
+
+        [[params.contact.list]]
+        class = "phone"
+        icon = "fa-phone"
+        url = "tel:+593998975863"
+        title = "+593 998975863"
+
+        [[params.contact.list]]
+        class = "website"
+        icon = "fa-globe"
+        url = "//portfoliosite.com"
+        title = "portfoliosite.com"
+
+        [[params.contact.list]]
+        class = "linkedin"
+        icon = "fa-linkedin"
+        url = "https://linkedin.com/in/santiagomorenoecl"
+        title = "@santiagomorenoecl"
+
+        [[params.contact.list]]
+        class = "github"
+        icon = "fa-github"
+        url = "https://github.com/5murdok5"
+        title = "github.com/5murdok5"
+
+    # Education section
+    [params.education]
+        enable = true
+        title = "Education"
+
+        [[params.education.list]]
+        degree = "Ingenieria en Sistemas"
+        college = "UTPL"
+        dates = "2012 - 2015"
+
+        [[params.education.list]]
+        degree = "Tecnologias de la Información"
+        college = "UTPL"
+        dates = "2020 - 2022"
+
+    # Languages section
+    [params.language]
+        enable = true
+        title = "Languages"
+
+        [[params.language.list]]
+        language = "Español"
+        level = "Nativo"
+
+        [[params.language.list]]
+        language = "Ingles"
+        level = "Basico/Intermedio"
+
+
+
+    # References section
+    [params.references]
+        enable = true
+        title = "References"
+
+        [[params.references.list]]
+        name = "Rommel Macas"
+        email = "romelmacas@gmail.com"
+        phone = "+593 984630519"
+
+
+    # Interests section
+    [params.interests]
+        enable = true
+        title = "Interests"
+
+        [[params.interests.list]]
+        interest = "Viajar"
+
+        [[params.interests.list]]
+        interest = "Cocinar"
+
+        [[params.interests.list]]
+        interest = "Aprender"
+
+
+
+    # Downloads section
+    [params.downloads]
+        enable = true
+        title = "Downloads"
+
+        [[params.downloads.list]]
+        name = "CV / Resume"
+        icon = "fa-file-pdf-o"
+        filepath = "path/resume.pdf"
+
+
+# Main body sections
+
+    # You may use markdown in summary, details and intro fields. But don't overdose, it's resume!:)
+
+    # Summary section
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        title = "Career Profile"
+        summary = "Soy un desarrollador de software apacionado por las nuevas tecnologias, autodidacta y con muchas ganas de obtener nuevos conocimientos, enfocado al desarrollo movil y web, 70% Frontend, 30% Backend"
+
+    # Experiences section
+    [params.experiences]
+        enable = true
+        icon = "fa-briefcase"
+        title = "Experiences"
+
+        [[params.jobs.list]]
+        position = "Fullstack"
+        dates = "2021 - Present"
+        company = "RAPIFAS COURIER"
+        details = "**Desarrollador Fullstack** Encargado del area de tecnologia, creacion y aplicacion de soluciones para la empresa, deacuerdo a los procesos que evolucionan con la compañia, desarrollo de panel administrativo web, incluyendo integracion de facturacion y gestion monetaria de la empresa, creacion de aplicaciones moviles para clientes en genera y funcionarios internos de la empresa para la realizacion de procesos"
+
+
+        [[params.jobs.list]]
+        position = "Freelance"
+        dates = "2021 - Present"
+        company = "IDCODE"
+        details = "**Desarrollador Fullstack** Proyectos Freelance, desarrollo de aplicaciones, moviles, web y de escritorio deacuerdo a las necesidades del cliente, desde la face inicial hasta la entrega final, frontend y backend, tecnologias aplicadas: Flutter, React js, React Native, Node js, Nest js, AWS, SERVERLESS, Firebase, Google Cloud, Figma, Adobe XD."
+
+        [[params.jobs.list]]
+        position = "Frontend Developer/Ui Developer"
+        dates = "2019 - 2021"
+        company = "MARCKAPP"
+        details = "**Frontend Developer** Creacion de aplicaciones moviles Android/IOS, multiplataforma, Web apps administrativas, desarrollo deacuerdo a los requerimientos del cliente, encargado del diseño, creacion e infraestructura frontend, tecnologias aplicadas: React js, Flutter, HTML, CSS, Javascript, firebase, Mongo DB, Node js, Figma, Adobe XD"
+
+        [[params.jobs.list]]
+        position = "Developer"
+        dates = "2020"
+        company = "UTPL - PRENDHO"
+        details = "**Desarrollo de Procesos** Investigacion y desarrollo de flujos de trabajo con herramientas de Microsoft 360, para gestion documental y autorizacion de archivos mediante certificado de firma electronica, incluyendo coneccion con apis para la crecion de componentes de flujo en PHP dentro de Powerautomate (Automatizador de flujo de procedimeintos en Microsoft 360), tecnologias aplicadas: PHP, Node js, Powerautomate y herramientas de Microsoft 360."
+       
+        [[params.jobs.list]]
+        position = "Fullstack"
+        dates = "2018 - 2020"
+        company = "CIDSECURE"
+        details = "Diferentes cargos dentro de la empresa, Desarrollo web, Desarrollo de modificaciones dentro de plataforma educativa desarrollada en Moodle, en un programa de educacion para insentivar a jovenes a la programacion, Documentacion y desarrollo de aplicacion en python (GOODAPETITE), desarrollo de paginas web en general. Tecnologias aplicadas: HTML, CSS, JavaScript, Phyton, Latex (Para documentación)."
+
+    # Projects section
+    [params.projects]
+        enable = true
+        icon = "fa-archive"
+        title = "Projects"
+        intro = ""
+
+        [[params.projects.list]]
+        title = "Flutter App UI consept"
+        gh_repository_url = "5murdok5/FlutterAppAstroniers"
+        tagline = ""
+
+        [[params.projects.list]]
+        title = "Simple FAQ Theme for Hugo"
+        gh_repository_url = "5murdok5/webMakeA-counter"
+        tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
+
+        [[params.projects.list]]
+        title = "Hugo Identity"
+        gh_repository_url = "5murdok5/cesarpry"
+        tagline = "Web"
+
+        [[params.projects.list]]
+        title = "Orbit"
+        gh_repository_url = "5murdok5/multiventas"
+        tagline = "Desarrollo de APlicaciones multiplataforma"
+
+        [[params.projects.list]]
+        title = "Orbit"
+        gh_repository_url = "5murdok5/GraphQL_Apolo"
+        tagline = "Desarrollo de APlicaciones multiplataforma"
+
+        [[params.projects.list]]
+        title = "Aws LamdaCrud/Serverless"
+        gh_repository_url = "5murdok5/LamdaCrud"
+        tagline = "Desarrollo de APlicaciones multiplataforma"
+
+
+
+    # Skills section
+    [params.skills]
+        enable = true
+        icon = "fa-rocket"
+        title = "Skills & Proficiency"
+
+        [[params.skills.list]]
+        skill = "Flutter/Dart"
+        level = "90%"
+
+         [[params.skills.list]]
+        skill = "React Native"
+        level = "40%"
+                
+        [[params.skills.list]]
+        skill = "Javascript"
+        level = "85%"
+
+        [[params.skills.list]]
+        skill = "TypeScrip"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "HTML5 & CSS"
+        level = "95%"
+
+        [[params.skills.list]]
+        skill = "Bosstrap"
+        level = "80%"
+
+        [[params.skills.list]]
+        skill = "PHP"
+        level = "25%"
+
+        [[params.skills.list]]
+        skill = "AWS"
+        level = "50%"
+       
+        [[params.skills.list]]
+        skill = "AWS/Lambda"
+        level = "52%"
+
+        [[params.skills.list]]
+        skill = "React js"
+        level = "92 %"
+
+        [[params.skills.list]]
+        skill = "Redux js"
+        level = "80%"
+
+         [[params.skills.list]]
+        skill = "Wordpress"
+        level = "50%"
+        
+        [[params.skills.list]]
+        skill = "Firebase"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Cloud Fuctions (Google)"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Mongo DB"
+        level = "40%"
+
+        [[params.skills.list]]
+        skill = "SQL"
+        level = "20%"
+
+        [[params.skills.list]]
+        skill = "GraphQL"
+        level = "20%"
+
+        [[params.skills.list]]
+        skill = "Node js"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Python"
+        level = "30%"
+
+        [[params.skills.list]]
+        skill = "API REST"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Nest js"
+        level = "30%"
+
+        [[params.skills.list]]
+        skill = "GIT"
+        level = "60%"
+
+        [[params.skills.list]]
+        skill = "UX/UI"
+        level = "60%"
+        
+        [[params.skills.list]]
+        skill = "FIGMA/ADOVE XD"
+        level = "80%"
+        
+        [[params.skills.list]]
+        skill = "Adobe Ilustrator"
+        level = "40%"
+        
+        [[params.skills.list]]
+        skill = "Programas de Edición y Producción de Video"
+        level = "70%"
+
+    # Certificates section
+    [params.certificates]
+        enable = true
+        icon = "fa-certificate"
+        title = "Skills & Proficiency"
+
+        [[params.certificates.list]]
+        title = "jQuery Certificate"
+        url = "https://wcs.smartdraw.com/certificate/img/certificate-2.jpg?bn=15100111791"
+
+
+    # Footer section
+
+    # The original template is released under the Creative Commons Attribution 3.0 License.
+    # Please keep the original attribution link when using for your own project.
+    # If you'd like to use the template without the attribution,
+    # you can check out other license options via template author's website: themes.3rdwavemedia.com
+    # 
+    # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
+
+    [params.footer]
+        copyright = "Santaigo A. Moreno B."
