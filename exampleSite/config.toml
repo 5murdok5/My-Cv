@@ -32,9 +32,9 @@ disable404 = true
 
     # Profile section
     [params.profile]
-        name = "John Doe"
+        name = "Santiago A. Moreno B."
         tagline = "Full Stack Developer"
-        avatar = "profile.png"
+        
 
     # Contact section
     [params.contact]
@@ -43,14 +43,14 @@ disable404 = true
         [[params.contact.list]]
         class = "email"
         icon = "fa-envelope"
-        url = "mailto: yourname@email.com"
-        title = "john.doe@website.com"
+        url = "mailto: santiago.moreno52@gmail.com"
+        title = "santiago.moreno52"
 
         [[params.contact.list]]
         class = "phone"
         icon = "fa-phone"
-        url = "tel:+1234567890"
-        title = "+1234567890"
+        url = "tel:+593998975863"
+        title = "+593 998975863"
 
         [[params.contact.list]]
         class = "website"
@@ -61,20 +61,14 @@ disable404 = true
         [[params.contact.list]]
         class = "linkedin"
         icon = "fa-linkedin"
-        url = "//linkedin.com/in/johndoe"
-        title = "linkedin.com/in/johndoe"
+        url = "https://linkedin.com/in/santiagomorenoecl"
+        title = "@santiagomorenoecl"
 
         [[params.contact.list]]
         class = "github"
         icon = "fa-github"
-        url = "//github.com/username"
-        title = "github.com/username"
-
-        [[params.contact.list]]
-        class = "twitter"
-        icon = "fa-twitter"
-        url = "//twitter.com/username"
-        title = "@twittername"
+        url = "https://github.com/5murdok5"
+        title = "github.com/5murdok5"
 
     # Education section
     [params.education]
@@ -82,14 +76,14 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        college = "University of London"
-        dates = "2006 - 2010"
+        degree = "Ingenieria en Sistemas"
+        college = "UTPL"
+        dates = "2012 - 2015"
 
         [[params.education.list]]
-        degree = "BSc in Applied Mathematics"
-        college = "Bristol University"
-        dates = "2007 - 2011"
+        degree = "Tecnologias de la Información"
+        college = "UTPL"
+        dates = "2020 - 2022"
 
     # Languages section
     [params.language]
@@ -97,16 +91,13 @@ disable404 = true
         title = "Languages"
 
         [[params.language.list]]
-        language = "English"
-        level = "Native"
+        language = "Español"
+        level = "Nativo"
 
         [[params.language.list]]
-        language = "French"
-        level = "Professional"
+        language = "Ingles"
+        level = "Basico/Intermedio"
 
-        [[params.language.list]]
-        language = "Russian"
-        level = "Professional"
 
 
     # References section
@@ -115,14 +106,9 @@ disable404 = true
         title = "References"
 
         [[params.references.list]]
-        name = "Contact Name"
-        email = "contact@gmail.com"
-        phone = "+00 000 0000000"
-
-        [[params.references.list]]
-        name = "Contact Name"
-        email = "contact@gmail.com"
-        phone = "+00 000 0000000"
+        name = "Rommel Macas"
+        email = "romelmacas@gmail.com"
+        phone = "+593 984630519"
 
 
     # Interests section
@@ -131,13 +117,14 @@ disable404 = true
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Climbing"
+        interest = "Viajar"
 
         [[params.interests.list]]
-        interest = "Snowboarding"
+        interest = "Cocinar"
 
         [[params.interests.list]]
-        interest = "Cooking"
+        interest = "Aprender"
+
 
 
     # Downloads section
@@ -160,7 +147,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "**Summarise your career here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu."
+        summary = "Soy un desarrollador de software apacionado por las nuevas tecnologias, autodidacta y con muchas ganas de obtener nuevos conocimientos, enfocado al desarrollo movil y web, 70% Frontend, 30% Backend"
 
     # Experiences section
     [params.experiences]
@@ -169,49 +156,72 @@ disable404 = true
         title = "Experiences"
 
         [[params.jobs.list]]
-        position = "Lead Developer"
-        dates = "2015 - Present"
-        company = "Startup Hubs, San Francisco"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.\n\n Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+        position = "Fullstack"
+        dates = "2021 - Present"
+        company = "RAPIFAS COURIER"
+        details = "**Desarrollador Fullstack** Encargado del area de tecnologia, creacion y aplicacion de soluciones para la empresa, deacuerdo a los procesos que evolucionan con la compañia, desarrollo de panel administrativo web, incluyendo integracion de facturacion y gestion monetaria de la empresa, creacion de aplicaciones moviles para clientes en genera y funcionarios internos de la empresa para la realizacion de procesos"
+
 
         [[params.jobs.list]]
-        position = "Senior Software Engineer"
-        dates = "2014 - 2015"
-        company = "Google, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Freelance"
+        dates = "2021 - Present"
+        company = "IDCODE"
+        details = "**Desarrollador Fullstack** Proyectos Freelance, desarrollo de aplicaciones, moviles, web y de escritorio deacuerdo a las necesidades del cliente, desde la face inicial hasta la entrega final, frontend y backend, tecnologias aplicadas: Flutter, React js, React Native, Node js, Nest js, AWS, SERVERLESS, Firebase, Google Cloud, Figma, Adobe XD."
 
         [[params.jobs.list]]
-        position = "UI Developer"
-        dates = "2012 - 2014"
-        company = "Amazon, London"
-        details = "**Describe your role here** lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem."
+        position = "Frontend Developer/Ui Developer"
+        dates = "2019 - 2021"
+        company = "MARCKAPP"
+        details = "**Frontend Developer** Creacion de aplicaciones moviles Android/IOS, multiplataforma, Web apps administrativas, desarrollo deacuerdo a los requerimientos del cliente, encargado del diseño, creacion e infraestructura frontend, tecnologias aplicadas: React js, Flutter, HTML, CSS, Javascript, firebase, Mongo DB, Node js, Figma, Adobe XD"
+
+        [[params.jobs.list]]
+        position = "Developer"
+        dates = "2020"
+        company = "UTPL - PRENDHO"
+        details = "**Desarrollo de Procesos** Investigacion y desarrollo de flujos de trabajo con herramientas de Microsoft 360, para gestion documental y autorizacion de archivos mediante certificado de firma electronica, incluyendo coneccion con apis para la crecion de componentes de flujo en PHP dentro de Powerautomate (Automatizador de flujo de procedimeintos en Microsoft 360), tecnologias aplicadas: PHP, Node js, Powerautomate y herramientas de Microsoft 360."
+       
+        [[params.jobs.list]]
+        position = "Fullstack"
+        dates = "2018 - 2020"
+        company = "CIDSECURE"
+        details = "Diferentes cargos dentro de la empresa, Desarrollo web, Desarrollo de modificaciones dentro de plataforma educativa desarrollada en Moodle, en un programa de educacion para insentivar a jovenes a la programacion, Documentacion y desarrollo de aplicacion en python (GOODAPETITE), desarrollo de paginas web en general. Tecnologias aplicadas: HTML, CSS, JavaScript, Phyton, Latex (Para documentación)."
 
     # Projects section
     [params.projects]
         enable = true
         icon = "fa-archive"
         title = "Projects"
-        intro = "**You can list your side projects or open source libraries in this section.** Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus"
+        intro = ""
 
         [[params.projects.list]]
-        title = "Hugrid"
-        gh_repository_url = "aerohub/hugrid"
-        tagline = "Grid theme for Hugo. It's a kind of boilerplate to perform anyone or anything quickly. Portfolio, collection, bookmarks, contacts and so on"
+        title = "Flutter App UI consept"
+        gh_repository_url = "5murdok5/FlutterAppAstroniers"
+        tagline = ""
 
         [[params.projects.list]]
         title = "Simple FAQ Theme for Hugo"
-        gh_repository_url = "aerohub/hugo-faq-theme"
+        gh_repository_url = "5murdok5/webMakeA-counter"
         tagline = "Simple FAQ Theme for Hugo. You may use this theme for building very simple FAQs or note lists."
 
         [[params.projects.list]]
         title = "Hugo Identity"
-        gh_repository_url = "aerohub/hugo-identity-theme"
-        tagline = "Little profile/card-style template for Hugo."
+        gh_repository_url = "5murdok5/cesarpry"
+        tagline = "Web"
 
         [[params.projects.list]]
         title = "Orbit"
-        gh_repository_url = "aerohub/hugo-orbit-theme"
-        tagline = "Hugo Resume/CV Theme for Developers."
+        gh_repository_url = "5murdok5/multiventas"
+        tagline = "Desarrollo de APlicaciones multiplataforma"
+
+        [[params.projects.list]]
+        title = "Orbit"
+        gh_repository_url = "5murdok5/GraphQL_Apolo"
+        tagline = "Desarrollo de APlicaciones multiplataforma"
+
+        [[params.projects.list]]
+        title = "Aws LamdaCrud/Serverless"
+        gh_repository_url = "5murdok5/LamdaCrud"
+        tagline = "Desarrollo de APlicaciones multiplataforma"
 
 
 
@@ -222,38 +232,114 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.skills.list]]
-        skill = "Python & Django"
-        level = "98%"
+        skill = "Flutter/Dart"
+        level = "90%"
+
+         [[params.skills.list]]
+        skill = "React Native"
+        level = "40%"
                 
         [[params.skills.list]]
-        skill = "Javascript & jQuery"
-        level = "98%"
+        skill = "Javascript"
+        level = "85%"
 
         [[params.skills.list]]
-        skill = "Angular"
-        level = "95%"
+        skill = "TypeScrip"
+        level = "60%"
 
         [[params.skills.list]]
         skill = "HTML5 & CSS"
         level = "95%"
 
         [[params.skills.list]]
-        skill = "Ruby on Rails"
-        level = "75%"
+        skill = "Bosstrap"
+        level = "80%"
 
         [[params.skills.list]]
-        skill = "Sketch & Photoshop"
+        skill = "PHP"
+        level = "25%"
+
+        [[params.skills.list]]
+        skill = "AWS"
+        level = "50%"
+       
+        [[params.skills.list]]
+        skill = "AWS/Lambda"
+        level = "52%"
+
+        [[params.skills.list]]
+        skill = "React js"
+        level = "92 %"
+
+        [[params.skills.list]]
+        skill = "Redux js"
+        level = "80%"
+
+         [[params.skills.list]]
+        skill = "Wordpress"
+        level = "50%"
+        
+        [[params.skills.list]]
+        skill = "Firebase"
+        level = "90%"
+
+        [[params.skills.list]]
+        skill = "Cloud Fuctions (Google)"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Mongo DB"
+        level = "40%"
+
+        [[params.skills.list]]
+        skill = "SQL"
+        level = "20%"
+
+        [[params.skills.list]]
+        skill = "GraphQL"
+        level = "20%"
+
+        [[params.skills.list]]
+        skill = "Node js"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Python"
+        level = "30%"
+
+        [[params.skills.list]]
+        skill = "API REST"
+        level = "70%"
+
+        [[params.skills.list]]
+        skill = "Nest js"
+        level = "30%"
+
+        [[params.skills.list]]
+        skill = "GIT"
         level = "60%"
+
+        [[params.skills.list]]
+        skill = "UX/UI"
+        level = "60%"
+        
+        [[params.skills.list]]
+        skill = "FIGMA/ADOVE XD"
+        level = "80%"
+        
+        [[params.skills.list]]
+        skill = "Adobe Ilustrator"
+        level = "40%"
+        
+        [[params.skills.list]]
+        skill = "Programas de Edición y Producción de Video"
+        level = "70%"
 
     # Certificates section
     [params.certificates]
         enable = true
         icon = "fa-certificate"
         title = "Skills & Proficiency"
-
-        [[params.certificates.list]]
-        title = "Python & Django Certificate"
-        url = "https://wcs.smartdraw.com/certificate/img/certificate-2.jpg?bn=15100111791"
 
         [[params.certificates.list]]
         title = "jQuery Certificate"
@@ -270,4 +356,4 @@ disable404 = true
     # As for Hugo port you may rewrite the "Ported for..." line with setting your name below.
 
     [params.footer]
-        copyright = ""
+        copyright = "Santaigo A. Moreno B."
