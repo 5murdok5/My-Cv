@@ -1,8 +1,8 @@
 # Page settings
 
-baseurl = "http://example.org/"
+baseurl = "https://cvsantiago-48eb1.web.app/"
 languageCode = "en-us"
-title = "John Doe Resume"
+title = "Santiago Moreno Resume"
 theme = "../../hugo-orbit-theme"
 themesDir = "."
 staticDir = "../static"
@@ -76,12 +76,12 @@ disable404 = true
         title = "Education"
 
         [[params.education.list]]
-        degree = "Ingenieria en Sistemas"
+        degree = "Ingeniería en Sistemas"
         college = "UTPL"
         dates = "2012 - 2015"
 
         [[params.education.list]]
-        degree = "Tecnologias de la Información"
+        degree = "Tecnologías de la Información"
         college = "UTPL"
         dates = "2020 - 2022"
 
@@ -110,6 +110,16 @@ disable404 = true
         email = "romelmacas@gmail.com"
         phone = "+593 984630519"
 
+        [[params.references.list]]
+        name = "Diego Leon"
+        email = "d10.leonidas@gmail.com "
+        phone = "+593 939444208"
+
+        [[params.references.list]]
+        name = "Carlos Montoya"
+        email = "carlos.montoya@rapifas.com.ec "
+        phone = "+593 985646313"
+
 
     # Interests section
     [params.interests]
@@ -117,13 +127,13 @@ disable404 = true
         title = "Interests"
 
         [[params.interests.list]]
-        interest = "Viajar"
+        interest = "Viajar en Moto"
 
         [[params.interests.list]]
         interest = "Cocinar"
 
         [[params.interests.list]]
-        interest = "Aprender"
+        interest = "Deportes de Aventura"
 
 
 
@@ -147,7 +157,7 @@ disable404 = true
         enable = true
         icon = "fa-user"
         title = "Career Profile"
-        summary = "Soy un desarrollador de software apacionado por las nuevas tecnologias, autodidacta y con muchas ganas de obtener nuevos conocimientos, enfocado al desarrollo movil y web, 70% Frontend, 30% Backend"
+        summary = "Soy un desarrollador de software apasionado por las nuevas tecnologías, autodidacta y con muchas ganas de obtener nuevos conocimientos, enfocado al desarrollo móvil y web, 70% Frontend, 30% Backend"
 
     # Experiences section
     [params.experiences]
@@ -159,32 +169,32 @@ disable404 = true
         position = "Fullstack"
         dates = "2021 - Present"
         company = "RAPIFAS COURIER"
-        details = "**Desarrollador Fullstack** Encargado del area de tecnologia, creacion y aplicacion de soluciones para la empresa, deacuerdo a los procesos que evolucionan con la compañia, desarrollo de panel administrativo web, incluyendo integracion de facturacion y gestion monetaria de la empresa, creacion de aplicaciones moviles para clientes en genera y funcionarios internos de la empresa para la realizacion de procesos"
+        details = "**Desarrollador Fullstack** Encargado del área de tecnología, creación y aplicación de soluciones para la empresa, de acuerdo a los procesos que evolucionan con la compañía, desarrollo de panel administrativo web, incluyendo integración de facturación y gestión monetaria de la empresa, creación de aplicaciones móviles para clientes en general y funcionarios internos de la empresa para la realización de procesos, desde su etapa de inicio hasta la actual en producción, Tecnologías Utilizadas: React js, JavaScript, CSS, Jquery, Node js, Firebase, Flutter, Dart."
 
 
         [[params.jobs.list]]
         position = "Freelance"
         dates = "2021 - Present"
         company = "IDCODE"
-        details = "**Desarrollador Fullstack** Proyectos Freelance, desarrollo de aplicaciones, moviles, web y de escritorio deacuerdo a las necesidades del cliente, desde la face inicial hasta la entrega final, frontend y backend, tecnologias aplicadas: Flutter, React js, React Native, Node js, Nest js, AWS, SERVERLESS, Firebase, Google Cloud, Figma, Adobe XD."
+        details = "**Desarrollador Fullstack** Proyectos Freelance, desarrollo de aplicaciones, móviles, web y de escritorio, de acuerdo a las necesidades del cliente, desde la fase inicial hasta la entrega final, frontend y backend, tecnologías aplicadas: Flutter, React js, React Native, Node js, Nest js, AWS, SERVERLESS, Firebase, Google Cloud, Figma, Adobe XD."
 
         [[params.jobs.list]]
         position = "Frontend Developer/Ui Developer"
         dates = "2019 - 2021"
         company = "MARCKAPP"
-        details = "**Frontend Developer** Creacion de aplicaciones moviles Android/IOS, multiplataforma, Web apps administrativas, desarrollo deacuerdo a los requerimientos del cliente, encargado del diseño, creacion e infraestructura frontend, tecnologias aplicadas: React js, Flutter, HTML, CSS, Javascript, firebase, Mongo DB, Node js, Figma, Adobe XD"
+        details = "**Frontend Developer** Creación de aplicaciones móviles Android/IOS, multiplataforma, Web apps administrativas, desarrollo de acuerdo a los requerimientos del cliente, encargado del diseño, creación e infraestructura frontend, tecnologías aplicadas: React js, Flutter, HTML, CSS, Javascript, firebase, Mongo DB, Node js, Figma, Adobe XD"
 
         [[params.jobs.list]]
         position = "Developer"
         dates = "2020"
         company = "UTPL - PRENDHO"
-        details = "**Desarrollo de Procesos** Investigacion y desarrollo de flujos de trabajo con herramientas de Microsoft 360, para gestion documental y autorizacion de archivos mediante certificado de firma electronica, incluyendo coneccion con apis para la crecion de componentes de flujo en PHP dentro de Powerautomate (Automatizador de flujo de procedimeintos en Microsoft 360), tecnologias aplicadas: PHP, Node js, Powerautomate y herramientas de Microsoft 360."
+        details = "**Desarrollo de Procesos** Investigación y desarrollo de flujos de trabajo con herramientas de Microsoft 360, para gestión documental y autorización de archivos mediante certificado de firma electrónica, incluyendo conexión con apis para la creación de componentes de flujo en PHP dentro de Powerautomate (Automatizado de flujo de procedimientos en Microsoft 360), tecnologías aplicadas: PHP, Node js, Powerautomate y herramientas de Microsoft 360."
        
         [[params.jobs.list]]
         position = "Fullstack"
         dates = "2018 - 2020"
         company = "CIDSECURE"
-        details = "Diferentes cargos dentro de la empresa, Desarrollo web, Desarrollo de modificaciones dentro de plataforma educativa desarrollada en Moodle, en un programa de educacion para insentivar a jovenes a la programacion, Documentacion y desarrollo de aplicacion en python (GOODAPETITE), desarrollo de paginas web en general. Tecnologias aplicadas: HTML, CSS, JavaScript, Phyton, Latex (Para documentación)."
+        details = "Diferentes cargos dentro de la empresa, Desarrollo web, Desarrollo de modificaciones dentro de plataforma educativa desarrollada en Moodle, en un programa de educación para incentivar a jóvenes a la programación, Documentación y desarrollo de aplicación en Python (GOODAPETITE), desarrollo de páginas web en general. Tecnologías aplicadas: HTML, CSS, JavaScript, Python, Latex (Para documentación)."
 
     # Projects section
     [params.projects]
@@ -269,7 +279,7 @@ disable404 = true
 
         [[params.skills.list]]
         skill = "React js"
-        level = "92 %"
+        level = "92%"
 
         [[params.skills.list]]
         skill = "Redux js"
@@ -342,8 +352,8 @@ disable404 = true
         title = "Skills & Proficiency"
 
         [[params.certificates.list]]
-        title = "jQuery Certificate"
-        url = "https://wcs.smartdraw.com/certificate/img/certificate-2.jpg?bn=15100111791"
+        title = "Titulo de Bachiller"
+        url = "https://i.imgur.com/VwowO5w.png"
 
 
     # Footer section
